@@ -14,4 +14,12 @@ Arquivos:
 Essa pasta contém um arquivo em pdf com o artigo: **Rule extraction using Recursive-Rule extraction algorithm with J48graft combined with sampling selection techniques for the diagnosis of type 2 diabetes mellitus in the Pima Indian dataset**
 
 ## Pasta instalando_python
-Essa pasta contém um arquivo em pdf com o passo a passo para instalar Python no seu computador.
+Essa pasta contém um arquivo em pdf com a apresentação da primeira aula do nosso curso presencial. Dentro dele, temos:
+- Um case de Data Science do LinkedIn e outro da Netflix
+- Skills de um Data Scientist
+- Como tirar o máximo do nosso curso presencial
+- Qual o motivo de escolhermos Python
+- Instalando ferramentas
+- Primeiro contato com o Jupyter Notebook
+- Criando environments
+- Instalando pacotes e bibliotecas
