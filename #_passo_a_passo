@@ -1,0 +1,48 @@
+Arquivo com o passo a passo do que faremos na LIVE
+
+1) Apresentação da J!Q e da LIVE
+2) Apresentação do problema que iremos resolver
+3) Instalação do Python através do Anaconda Navigator - pessoas devem fazer isso através do PPT que enviamos
+4) Usaremos VS Code
+5) Exploração dos Dados
+6) Modelagem do Problema e Rodagem dos Algoritmos
+------------------------------------------------------------------------
+
+5) Passos:
+    - Leitura dos dados
+        - pd.read_csv()
+    - Visualização do DataFrame
+        - print() do dataframe
+    - Informações básicas do DataFrame
+        - pd.info()
+    - Quantidade de linhas duplicadas
+        - df.duplicated().sum()
+    - Quantidade de valores NaN por variável
+        - df.isna().sum()
+    - Estatística descritiva do DataFrame
+        - df.describe()
+    - Frequência relativa das Labels ou distribuição probabilística dos targets
+        - df.loc[:, 'label'].value_counts(normalize=True)
+
+6) Modelagem, treinamento e teste dos algoritmos
+    - Rodagem do primeiro modelo
+        - Leitura dos dados
+        - Split entre features e targets
+        - Não faremos o train_test_split. Assim mostraremos os possíveis erros que podem ocorrer
+        - Treino e previsão com o modelo(s)
+    - Rodagem do segundo modelo
+        - Leitura dos dados
+        - Split entre features e targets
+        - Fazer o train_test_split
+        - Não usar um random_state e mostrar os possíveis problemas que podem ocorrer com isso
+        - Treino e previsão com o modelo(s)
+    - Rodagem do terceiro modelo
+        - Leitura dos dados
+        - Split entre features e targets
+        - Rodar cross_validation com cross_val_score e K_fold
+    - Rodagem do quarto modelo
+        - Leitura dos dados
+        - Split entre features e targets
+        - Pré-processamento dos dados
+        - Usar pipeline e funções de pré-processamento
+        - Rodar cross_validation com cross_val_score e K_fold
