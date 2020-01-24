@@ -3,14 +3,14 @@
 Repositório com dados e scripts python da live que ocorreu no dia 23/01/2020.
 
 ## Redes Sociais da J!Quant
-**<font color='royalblue'>LinkedIn:<\font>** https://www.linkedin.com/company/j-quant/ <br>
-**<font color='royalblue'>Instagram:<\font>** https://www.instagram.com/jquantsocial/ <br>
-**<font color='royalblue'>Facebook:<\font>** https://www.facebook.com/jquantcommunity/ <br>
-**<font color='royalblue'>YouTube:<\font>** https://www.youtube.com/channel/UCrNTucu56jwzKJfUqsloSXQ <br>
+**<font color='royalblue'>LinkedIn:</font>** https://www.linkedin.com/company/j-quant/ <br>
+**<font color='royalblue'>Instagram:</font>** https://www.instagram.com/jquantsocial/ <br>
+**<font color='royalblue'>Facebook:</font>** https://www.facebook.com/jquantcommunity/ <br>
+**<font color='royalblue'>YouTube:</font>** https://www.youtube.com/channel/UCrNTucu56jwzKJfUqsloSXQ <br>
 
 ## Pasta scripts.py
 Essa pasta contém 3 arquivos .py:
-- **1_modelo.py**: arquivo com um modelo onde cometemos o <font color='red'>_ERRO_<\font> de não separar os dados de treino e teste 
+- **1_modelo.py**: arquivo com um modelo onde cometemos o <font color='red'>**_ERRO_**</font> de não separar os dados de treino e teste 
 - **2_modelo.py**: arquivo com uma alternativa para o erro que cometemos no script anterior
 - **explore.py**: arquivo de exploração dos dados que usamos na live
 
